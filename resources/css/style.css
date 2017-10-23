@@ -1,7 +1,6 @@
 html {
   text-align: center;
   font-family: Helvetica;
-  color: gray;
 }
 
 a{
@@ -25,13 +24,15 @@ h3{
   font-weight: bold;
 }
 
-.banner{
-  background-image: url("/Users/aarbol/Documents/Professional/Projects/_Coding/Broadway/resources/images/the-flatiron-building.png");
+.banner,
+  .break{
+  background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .break {
   color:white;
-  background-image: url("/Users/aarbol/Documents/Professional/Projects/_Coding/Broadway/resources/images/the-flatiron-building.png");
 }
 
 .copyright {
